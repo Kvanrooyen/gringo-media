@@ -9,9 +9,9 @@ export default function App() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route component={Home} path='/' exact />
-        <Route component={About} path='/about' />
-        <Route component={Contact} path='/contact' />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
