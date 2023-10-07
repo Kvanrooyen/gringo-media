@@ -1,0 +1,11 @@
+.centered-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-menu-item {
+    font-size: 1.2em;
+    font-weight: 600;
+    /* Adjust the font size as needed */
+}

@@ -1,21 +1,18 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Construction from './components/construction';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navigation from './components/navbar';
+import Home from './components/home'
+import About from './components/about'
+import Contact from './components/contact'
 
 export default function App() {
   return (
     <BrowserRouter>
+      <Navigation />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route component={Home} path='/' exact />
+        <Route component={About} path='/about' />
+        <Route component={Contact} path='/contact' />
       </Routes>
     </BrowserRouter>
-  );
-}
-
-function HomePage() {
-  return (
-    <div>
-      <Construction />
-    </div>
   );
 }
