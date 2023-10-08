@@ -1,10 +1,11 @@
 // LandingPage.js
 
-import React from 'react';
-import VimeoVideo from './VimeoVideo';
+import React, { lazy, Suspense } from 'react';
 import backgroundImage from '../assets/DSC03310.webp';
 
 const LandingPage = () => {
+
+    const LazyVimeoVideo = lazy(() => import('./VimeoVideo'));
 
     const scrollToServices = () => {
         const servicesSection = document.getElementById('services-section');
@@ -56,11 +57,12 @@ const LandingPage = () => {
             <section className="work-section py-16 text-center bg-zinc-950 text-white">
                 <h2 className="text-3xl font-bold mb-8">Our Work</h2>
                 <div className="flex flex-wrap justify-around">
-                    {/* Add Vimeo videos dynamically */}
-                    <VimeoVideo videoId="872188465" title="Journey to Partner" />
-                    <VimeoVideo videoId="834207852" title="Gustavo's Red Carpet" />
-                    <VimeoVideo videoId="840556219" title="Belíssima Body & Mind Spa" />
-                    {/* Add more videos as needed */}
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <LazyVimeoVideo videoId="872188465" title="Journey to Partner" />
+                        <LazyVimeoVideo videoId="834207852" title="Gustavo's Red Carpet" />
+                        <LazyVimeoVideo videoId="840556219" title="Belíssima Body & Mind Spa" />
+                        {/* Add more videos as needed */}
+                    </Suspense>
                 </div>
             </section>
         </div>
