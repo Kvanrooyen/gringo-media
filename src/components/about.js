@@ -96,7 +96,7 @@ const AboutUs = () => {
                     <div className="flex flex-wrap">
                         <div className="w-full lg:w-1/3 mb-4 senja-container p-4">
                             {/* Senja.io testimonial embed */}
-                            <div className="senja-embed" data-id="56b878a7-fb00-4d5e-96d6-30baffe2388c" data-lazyload="false"></div>
+                            <div className="senja-embed" data-id="1e41b7e5-1748-4230-a320-fa5f71f3d181" data-lazyload="false"></div>
                         </div>
                     </div>
                 </div>
