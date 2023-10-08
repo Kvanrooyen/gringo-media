@@ -16,6 +16,7 @@ const LandingPage = () => {
 
     return (
         <div className="landing-page">
+
             {/* Hero Section with Background Image and CTA */}
             <section
                 className="hero-section relative min-h-screen flex items-center justify-center"
