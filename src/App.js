@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navigation from './components/navbar';
 import Home from './components/home'
 import About from './components/about'
-import Contact from './components/contact'
+import Footer from "./components/footer";
 
 export default function App() {
   return (
@@ -12,6 +12,7 @@ export default function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
