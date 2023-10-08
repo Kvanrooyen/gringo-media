@@ -2,7 +2,7 @@
 
 import React from 'react';
 import VimeoVideo from './VimeoVideo';
-import backgroundImage from '../assets/DSC03310.jpg';
+import backgroundImage from '../assets/DSC03310.webp';
 
 const LandingPage = () => {
 

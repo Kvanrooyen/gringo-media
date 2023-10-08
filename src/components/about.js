@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import HeroImage from '../assets/about-hero.jpg';
-import KeaganPhoto from '../assets/keagan.jpg'
+import HeroImage from '../assets/about-hero.webp';
+import KeaganPhoto from '../assets/keagan.webp'
 
 const AboutUs = () => {
     useEffect(() => {
@@ -68,12 +68,14 @@ const AboutUs = () => {
                                     <img
                                         src={KeaganPhoto}
                                         alt="Keagan"
+                                        loading="lazy"
                                         className="w-full h-full object-cover object-center absolute inset-0"
                                         style={{
                                             objectPosition: '50% 25%', // Default for larger screens
                                             '@screen sm': {
                                                 objectPosition: '50% 80%', // Adjust for mobile screens
                                             },
+
                                         }}
                                     />
                                 </div>
