@@ -51,9 +51,6 @@ const VimeoVideo = ({ videoId, title }) => {
                         <div className="text-white text-base font-bold">{title}</div>
                     </div>
                 </div>
-                <div className="text-center mt-2">
-                    <div className="text-white text-base font-bold">{title}</div>
-                </div>
             </a>
         </div>
     );
