@@ -94,9 +94,11 @@ const AboutUs = () => {
                 <div className="max-w-5xl mx-auto">
                     <h2 className="text-3xl font-bold mb-4">What Our Clients Say</h2>
                     <div className="flex flex-wrap">
-                        <div className="w-full lg:w-1/3 mb-4 senja-container p-4">
+                        <div className="w-full mb-4 senja-container p-4">
                             {/* Senja.io testimonial embed */}
-                            <div className="senja-embed" data-id="e189fbfe-a6a3-48f1-97f4-303a22d944b3" data-lazyload="false"></div>
+
+                            <div class="senja-embed" data-id="a9a86b7a-6efa-4b0e-a3b2-e455425d2e89" data-lazyload="false"></div>
+
                         </div>
                     </div>
                 </div>
