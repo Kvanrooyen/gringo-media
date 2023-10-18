@@ -53,7 +53,7 @@ const AboutUs = () => {
                 <div className="max-w-5xl mx-auto" >
                     <h2 className="text-3xl font-bold mb-4" > About Gringo Media </h2>
                     <p>
-                        Through our passion for storytelling, we strive to capture the essence of your brand and craft it into an eye - catching video that can reach a wider audience. With founder Keagan's background in photography, each video is crafted with a keen eye for detail and creativity. Let us help you take your brand to the next level with Gringo Media.
+                        Through our passion for storytelling, we strive to capture the essence of your brand and craft it into an eye-catching video that can reach a wider audience. With founder Keagan's background in photography, each video is crafted with a keen eye for detail and creativity. Let us help you take your brand to the next level with Gringo Media.
                     </p>
                 </div>
             </section>
