@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faYoutube, faVimeo, faMastodon } from '@fortawesome/free-brands-svg-icons';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faYoutube, faMastodon } from '@fortawesome/free-brands-svg-icons';
+import { SiKofi, SiLiberapay, SiPaypal } from 'react-icons/si';
 
 const Footer = () => {
     return (
@@ -36,14 +36,12 @@ const Footer = () => {
                 <div className="md:w-1/3 flex flex-col items-center mb-4 md:mb-0">
                     <h3 className="text-lg font-bold mb-2">Support Us</h3>
                     <div className="flex justify-center md:justify-end items-center space-x-4">
-                        {/* Buy Me a Coffee */}
-                        <a href="https://www.buymeacoffee.com/gringomedia" target="_blank" rel="noopener noreferrer" aria-label='Support Gringo Media on Buy Me a Coffee'>
-                            <FontAwesomeIcon icon={faCoffee} size="lg" />
-                        </a>
                         {/* Ko-Fi */}
-                        <a href="https://ko-fi.com/gringomedia" target="_blank" rel="noopener noreferrer" aria-label='Support Gringo Media on Ko-Fi'>
-                            <FontAwesomeIcon icon={faCoffee} size="lg" />
-                        </a>
+                        <a href='https://ko-fi.com/gringomedia' target="_blank" rel="noopener noreferrer"> <SiKofi className="text-xl hover:text-pink-500 cursor-pointer" /></a>
+                        {/* Liberapay */}
+                        <a href='https://liberapay.com/GringoMedia' target="_blank" rel="noopener noreferrer"> <SiLiberapay className="text-xl hover:text-green-500 cursor-pointer" /></a>
+                        {/* Paypal */}
+                        <a href='https://paypal.me/gringomedia' target="_blank" rel="noopener noreferrer"> <SiPaypal className="text-xl hover:text-blue-500 cursor-pointer" /></a>
                     </div>
                 </div>
 
