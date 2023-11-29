@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faTiktok, faYoutube, faVimeo } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faYoutube, faVimeo, faMastodon } from '@fortawesome/free-brands-svg-icons';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
@@ -15,17 +15,13 @@ const Footer = () => {
                         <a href="https://instagram.com/gringo_media" target="_blank" rel="noopener noreferrer" aria-label='Follow Gringo Media on Instagram'>
                             <FontAwesomeIcon icon={faInstagram} size="lg" />
                         </a>
-                        {/* TikTok */}
-                        <a href="https://tiktok.com/@gringo.media" target="_blank" rel="noopener noreferrer" aria-label='Follow Gringo Media on TikTok'>
-                            <FontAwesomeIcon icon={faTiktok} size="lg" />
-                        </a>
                         {/* YouTube */}
                         <a href="https://www.youtube.com/@gringomedia" target="_blank" rel="noopener noreferrer" aria-label='Subscribe to Gringo Media on YouTube'>
                             <FontAwesomeIcon icon={faYoutube} size="lg" />
                         </a>
-                        {/* Vimeo */}
-                        <a href="https://vimeo.com/gringomedia" target="_blank" rel="noopener noreferrer" aria-label='Subscribe to Gringo Media on Vimeo'>
-                            <FontAwesomeIcon icon={faVimeo} size="lg" />
+                        {/* Mastodon.ie */}
+                        <a href="https://mastodon.ie/@gringomedia" target="_blank" rel="noopener noreferrer" aria-label='Follow Gringo Media on Mastodon'>
+                            <FontAwesomeIcon icon={faMastodon} size="lg" />
                         </a>
                     </div>
                 </div>
