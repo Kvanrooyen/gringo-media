@@ -59,6 +59,7 @@ const LandingPage = () => {
                 <div className="flex flex-wrap justify-around">
                     <Suspense fallback={<div>Loading...</div>}>
                         <LazyVimeoVideo videoId="872188465" title="Journey to Partner" />
+                        <LazyVimeoVideo videoId="926669134" title="Client Testimonial: Zirona & Clearspace" />
                         <LazyVimeoVideo videoId="834207852" title="Gustavo's Red Carpet" />
                         <LazyVimeoVideo videoId="840556219" title="Belíssima Body & Mind Spa" />
                         {/* Add more videos as needed */}
