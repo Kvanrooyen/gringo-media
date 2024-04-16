@@ -60,8 +60,7 @@ const LandingPage = () => {
                     <Suspense fallback={<div>Loading...</div>}>
                         <LazyVimeoVideo videoId="872188465" title="Journey to Partner" />
                         <LazyVimeoVideo videoId="926669134" title="Client Testimonial: Zirona & Clearspace" />
-                        <LazyVimeoVideo videoId="834207852" title="Gustavo's Red Carpet" />
-                        <LazyVimeoVideo videoId="840556219" title="Belíssima Body & Mind Spa" />
+                        <LazyVimeoVideo videoId="935446343" title="The Future Beauty Show | BTL Ireland Highlight Reel" />
                         {/* Add more videos as needed */}
                     </Suspense>
                 </div>
