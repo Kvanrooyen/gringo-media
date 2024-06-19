@@ -29,7 +29,7 @@ const Footer = () => {
                 {/* Contact Email */}
                 <div className="md:w-1/3 flex flex-col items-center mb-4 md:mb-0">
                     <h3 className="text-lg font-bold mb-2">Contact Us</h3>
-                    <a href="mailto:hey@gringo.media" className="text-blue-300" aria-label='hey@gringo.media'>hey@gringo.media</a>
+                    <a href="mailto:info@gringomedia.ie" className="text-blue-300" aria-label='info@gringomedia.ie'>info@gringomedia.ie</a>
                 </div>
 
                 {/* Support Us Section */}
