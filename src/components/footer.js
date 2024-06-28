@@ -12,7 +12,7 @@ const Footer = () => {
                     <h3 className="text-lg font-bold mb-2">Follow Us</h3>
                     <div className="flex justify-center md:justify-start space-x-4">
                         {/* Instagram */}
-                        <a href="https://instagram.com/gringo_media" target="_blank" rel="noopener noreferrer" aria-label='Follow Gringo Media on Instagram'>
+                        <a href="https://instagram.com/gringomedia.ie" target="_blank" rel="noopener noreferrer" aria-label='Follow Gringo Media on Instagram'>
                             <FontAwesomeIcon icon={faInstagram} size="lg" />
                         </a>
                         {/* YouTube */}
