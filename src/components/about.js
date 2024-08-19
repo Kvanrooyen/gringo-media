@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import HeroImage from '../assets/about-hero.webp';
 import KeaganPhoto from '../assets/keagan.webp'
+import Map from '../components/map.js';
 
 const AboutUs = () => {
     useEffect(() => {
@@ -108,6 +109,12 @@ const AboutUs = () => {
                 </div>
             </section>
 
+            <section className="map-section p-8 bg-zinc-950 text-white">
+                <div className="max-w-5xl mx-auto">
+                    <h2 className="text-3xl font-bold mb-4">Our Location</h2>
+                </div>
+                <Map />
+            </section>
 
         </div>
     );
