@@ -39,16 +39,16 @@ const LandingPage = () => {
             <section id="services-section" className="services-section p-8 bg-zinc-950 text-white">
                 <div className="flex flex-wrap justify-around">
                     <div className="max-w-sm mb-4 bg-zinc-950 p-5 rounded">
-                        <h2 className="text-2xl font-bold mb-2">Corporate Videos</h2>
-                        <p>At Gringo Media, we specialize in creating high-quality corporate videos that showcase your brand and message in the best possible light. Whether it's an explainer video, product demo, or company overview, we'll work with you to create a video that meets your specific needs and goals.</p>
+                        <h2 className="text-2xl font-bold mb-2">Branded Storytelling</h2>
+                        <p>AAt Gringo Media, we excel in crafting compelling narratives that highlight your brand's unique journey and values. Whether it's a powerful testimonial, a documentary-style feature, or a company overview, we'll help you tell your story in a way that resonates deeply with your audience and enhances your brand identity.</p>
                     </div>
                     <div className="max-w-sm mb-4 bg-zinc-950 p-5 rounded">
-                        <h2 className="text-2xl font-bold mb-2">Event Videos</h2>
-                        <p>Capture the excitement and energy of your next event with a professionally produced video. From conferences and trade shows to product launches and charity events, Gringo Media can help you create a video that captures the essence of your event and engages your audience.</p>
+                        <h2 className="text-2xl font-bold mb-2">Event Highlights & Recaps</h2>
+                        <p>Capture the energy, emotion, and key moments of your events with our expertly produced highlight reels and recap videos. From conferences and product launches to charity events and corporate gatherings, Gringo Media will help you create visually engaging videos that not only document the event but also amplify its impact.</p>
                     </div>
                     <div className="max-w-sm mb-4 bg-zinc-950 p-5 rounded">
-                        <h2 className="text-2xl font-bold mb-2">Promotional Videos</h2>
-                        <p>Looking to promote a new product or service? Let Gringo Media help you create a promotional video that showcases what you have to offer in a creative and compelling way. From concept development to final delivery, we'll work with you every step of the way to ensure your video meets your marketing goals.</p>
+                        <h2 className="text-2xl font-bold mb-2">Social Media Video Content</h2>
+                        <p>In today’s digital landscape, having high-quality, engaging content on social media is crucial. Gringo Media specializes in creating eye-catching, shareable videos designed specifically for social platforms. Whether promoting a new product or highlighting client services, our videos will help you enhance your online presence and connect with your audience in a meaningful way.</p>
                     </div>
                 </div>
             </section>
