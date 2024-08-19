@@ -53,7 +53,11 @@ const AboutUs = () => {
                 <div className="max-w-5xl mx-auto" >
                     <h2 className="text-3xl font-bold mb-4" > About Gringo Media </h2>
                     <p>
-                        Through our passion for storytelling, we strive to capture the essence of your brand and craft it into an eye-catching video that can reach a wider audience. With founder Keagan's background in photography, each video is crafted with a keen eye for detail and creativity. Let us help you take your brand to the next level with Gringo Media.
+                        At Gringo Media, storytelling is at the heart of everything we do. We believe that every brand has a unique story waiting to be told, and we’re passionate about bringing those stories to life through captivating videos. Founded by Keagan, whose background in photography has honed his keen eye for detail and creativity, we approach each project with a blend of artistic vision and strategic insight.
+                        <br /> <br />
+                        Whether it's through compelling branded storytelling, dynamic event highlights, or engaging social media content, we’re dedicated to capturing the essence of your brand and transforming it into visual content that resonates with your audience. At Gringo Media, we don’t just make videos—we craft experiences that elevate your brand and connect with viewers on a deeper level.
+                        <br /><br />
+                        Let us help you take your brand to new heights with Gringo Media.
                     </p>
                 </div>
             </section>
