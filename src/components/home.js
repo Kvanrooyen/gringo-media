@@ -40,7 +40,7 @@ const LandingPage = () => {
                 <div className="flex flex-wrap justify-around">
                     <div className="max-w-sm mb-4 bg-zinc-950 p-5 rounded">
                         <h2 className="text-2xl font-bold mb-2">Branded Storytelling</h2>
-                        <p>AAt Gringo Media, we excel in crafting compelling narratives that highlight your brand's unique journey and values. Whether it's a powerful testimonial, a documentary-style feature, or a company overview, we'll help you tell your story in a way that resonates deeply with your audience and enhances your brand identity.</p>
+                        <p>At Gringo Media, we excel in crafting compelling narratives that highlight your brand's unique journey and values. Whether it's a powerful testimonial, a documentary-style feature, or a company overview, we'll help you tell your story in a way that resonates deeply with your audience and enhances your brand identity.</p>
                     </div>
                     <div className="max-w-sm mb-4 bg-zinc-950 p-5 rounded">
                         <h2 className="text-2xl font-bold mb-2">Event Highlights & Recaps</h2>
