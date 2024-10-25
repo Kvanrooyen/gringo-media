@@ -61,6 +61,7 @@ const LandingPage = () => {
                         <LazyVimeoVideo videoId="872188465" title="Journey to Partner" />
                         <LazyVimeoVideo videoId="926669134" title="Client Testimonial: Zirona & Clearspace" />
                         <LazyVimeoVideo videoId="935446343" title="The Future Beauty Show | BTL Ireland Highlight Reel" />
+                         <LazyVimeoVideo videoId="1023237436" title="Ubuntu Family Chiropractic Testimonial" />
                         {/* Add more videos as needed */}
                     </Suspense>
                 </div>
