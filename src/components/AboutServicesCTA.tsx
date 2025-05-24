@@ -7,9 +7,14 @@ export default function AboutServicesCTA() {
       style={{ backgroundColor: "#1c191a", color: "#f6e7d8" }}
     >
       {/* Background decorative elements */}
-      <div className="absolute top-10 right-10 w-32 h-32 bg-accent rounded-full blur-xl"></div>
-      <div className="absolute bottom-20 left-10 w-24 h-24 bg-accent rounded-full blur-lg"></div>
-      <div className="absolute top-1/2 right-1/4 w-16 h-16 bg-accent rounded-full blur-lg"></div>
+      <div
+        className="absolute top-10 right-10 w-32 h-32 rounded-full blur-xl"
+        style={{ backgroundColor: "rgba(246, 231, 216, 0.1)" }}
+      ></div>
+      <div
+        className="absolute bottom-20 left-10 w-24 h-24 rounded-full blur-lg"
+        style={{ backgroundColor: "rgba(246, 231, 216, 0.2)" }}
+      ></div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-4">
         {/* About Section */}
