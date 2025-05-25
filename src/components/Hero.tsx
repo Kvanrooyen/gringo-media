@@ -1,5 +1,4 @@
 'use client';
-
 import { useCallback } from 'react';
 
 export default function Hero() {
@@ -12,10 +11,11 @@ export default function Hero() {
 
   return (
     <section className="relative flex items-center justify-center min-h-screen bg-primary overflow-hidden">
-      {/* Gradient + subtle noise overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/70 to-accent/70 mix-blend-multiply" />
-      <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-10" />
 
+      <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover">
+        <source src="/hero-video.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-black/85" /> {/* Dark overlay */}
       <div className="relative z-10 text-center px-6">
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold mb-6 leading-tight text-accent">
           Gringo Media
