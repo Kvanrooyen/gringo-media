@@ -1,4 +1,5 @@
 import React from "react";
+import KeaganPortrait from "@/assets/Keagan-Portrait.jpeg";
 
 export default function AboutServicesCTA() {
   return (
@@ -16,44 +17,62 @@ export default function AboutServicesCTA() {
         style={{ backgroundColor: "rgba(246, 231, 216, 0.2)" }}
       ></div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4">
+      <div className="relative z-10 max-w-7xl mx-auto px-6">
         {/* About Section */}
-        <div className="text-center mb-16">
-          <h2
-            className="text-4xl md:text-5xl font-bold text-accent mb-6"
-            id="about-us"
-          >
+        <div className="mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-12 text-center">
             About Gringo Media
           </h2>
-          <p
-            className="text-xl md:text-2xl opacity-90 max-w-4xl mx-auto leading-relaxed mb-8"
-            style={{ color: "#f6e7d8" }}
-          >
-            At Gringo Media, storytelling is at the heart of everything we do.
-            Founded by Keagan, whose background in photography has honed his
-            keen eye for detail and creativity, we approach each project with a
-            blend of artistic vision and strategic insight.
-          </p>
-          <p
-            className="text-lg opacity-75 max-w-3xl mx-auto leading-relaxed"
-            style={{ color: "#f6e7d8" }}
-          >
-            We don&apos;t just make videos—we craft experiences that elevate
-            your brand and connect with viewers on a deeper level.
-          </p>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
+            {/* Photo Column - Takes up more space on desktop */}
+            <div className="lg:col-span-2 flex justify-center">
+              <div className="relative w-full max-w-md lg:max-w-none">
+                <div className="w-full aspect-square lg:aspect-[4/5] rounded-xl overflow-hidden shadow-2xl">
+                  <img
+                    src={KeaganPortrait.src}
+                    alt="Keagan - Founder of Gringo Media"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Text Column - Takes up remaining space */}
+            <div className="lg:col-span-3 lg:pl-8">
+              <p
+                className="text-xl md:text-2xl opacity-90 leading-relaxed mb-6"
+                style={{ color: "#f6e7d8" }}
+              >
+                At Gringo Media, storytelling is at the heart of everything we
+                do. Founded by Keagan, whose background in photography has honed
+                his keen eye for detail and creativity, we approach each project
+                with a blend of artistic vision and strategic insight.
+              </p>
+              <p
+                className="text-lg opacity-75 leading-relaxed"
+                style={{ color: "#f6e7d8" }}
+              >
+                We don&apos;t just make videos—we craft experiences that elevate
+                your brand and connect with viewers on a deeper level.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <div className="p-8 rounded-lg transition-all duration-300 hover:transform hover:scale-105">
-            <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4">
-              <i className="fas fa-video text-white text-xl"></i>
+          <div className="p-8 rounded-lg transition-all duration-300 hover:transform hover:scale-105 relative">
+            <div className="absolute top-4 left-4 text-6xl font-bold text-accent opacity-20">
+              01
             </div>
-            <h3 className="text-2xl font-bold text-accent mb-4" id="services">
+            <h3
+              className="text-3xl font-bold text-accent mb-4 relative z-10"
+              id="services"
+            >
               Branded Storytelling
             </h3>
             <p
-              className="leading-relaxed"
+              className="leading-relaxed text-lg"
               style={{ color: "#f6e7d8", opacity: 0.9 }}
             >
               Crafting compelling narratives that highlight your brand&apos;s
@@ -62,15 +81,15 @@ export default function AboutServicesCTA() {
             </p>
           </div>
 
-          <div className="p-8 rounded-lg transition-all duration-300 hover:transform hover:scale-105">
-            <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4">
-              <i className="fas fa-calendar-alt text-white text-xl"></i>
+          <div className="p-8 rounded-lg transition-all duration-300 hover:transform hover:scale-105 relative">
+            <div className="absolute top-4 left-4 text-6xl font-bold text-accent opacity-20">
+              02
             </div>
-            <h3 className="text-2xl font-bold text-accent mb-4">
+            <h3 className="text-3xl font-bold text-accent mb-4 relative z-10">
               Event Highlights
             </h3>
             <p
-              className="leading-relaxed"
+              className="leading-relaxed text-lg"
               style={{ color: "#f6e7d8", opacity: 0.9 }}
             >
               Capture the energy and key moments of your events with expertly
@@ -80,15 +99,15 @@ export default function AboutServicesCTA() {
             </p>
           </div>
 
-          <div className="p-8 rounded-lg transition-all duration-300 hover:transform hover:scale-105">
-            <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4">
-              <i className="fas fa-share-alt text-white text-xl"></i>
+          <div className="p-8 rounded-lg transition-all duration-300 hover:transform hover:scale-105 relative">
+            <div className="absolute top-4 left-4 text-6xl font-bold text-accent opacity-20">
+              03
             </div>
-            <h3 className="text-2xl font-bold text-accent mb-4">
+            <h3 className="text-3xl font-bold text-accent mb-4 relative z-10">
               Social Media Content
             </h3>
             <p
-              className="leading-relaxed"
+              className="leading-relaxed text-lg"
               style={{ color: "#f6e7d8", opacity: 0.9 }}
             >
               High-quality, engaging videos designed specifically for social
