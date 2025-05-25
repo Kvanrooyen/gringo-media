@@ -21,7 +21,7 @@ export default function Footer() {
                 Gringo Media
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                We specialize in creating compelling video content that tells
+                We specialise in creating compelling video content that tells
                 your story and drives results. From corporate videos to creative
                 campaigns, we bring your vision to life with professional
                 quality and creative flair.
