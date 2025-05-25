@@ -35,8 +35,8 @@ export default function AboutServicesCTA() {
             className="text-lg opacity-75 max-w-3xl mx-auto leading-relaxed"
             style={{ color: "#f6e7d8" }}
           >
-            We don't just make videos—we craft experiences that elevate your
-            brand and connect with viewers on a deeper level.
+            We don&apos;t just make videos—we craft experiences that elevate
+            your brand and connect with viewers on a deeper level.
           </p>
         </div>
 
@@ -53,9 +53,9 @@ export default function AboutServicesCTA() {
               className="leading-relaxed"
               style={{ color: "#f6e7d8", opacity: 0.9 }}
             >
-              Crafting compelling narratives that highlight your brand's unique
-              journey and values. From testimonials to company overviews, we
-              tell your story in a way that resonates with your audience.
+              Crafting compelling narratives that highlight your brand&apos;s
+              unique journey and values. From testimonials to company overviews,
+              we tell your story in a way that resonates with your audience.
             </p>
           </div>
 
@@ -72,7 +72,8 @@ export default function AboutServicesCTA() {
             >
               Capture the energy and key moments of your events with expertly
               produced highlight reels. From conferences to corporate
-              gatherings, we create videos that amplify your event's impact.
+              gatherings, we create videos that amplify your event&apos;s
+              impact.
             </p>
           </div>
 
@@ -106,8 +107,8 @@ export default function AboutServicesCTA() {
             className="text-xl mb-8 max-w-2xl mx-auto"
             style={{ color: "#f6e7d8", opacity: 0.9 }}
           >
-            Let's bring your vision to life with professional video content that
-            captivates your audience and drives results.
+            Let&apos;s bring your vision to life with professional video content
+            that captivates your audience and drives results.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
