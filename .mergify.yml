@@ -1,7 +1,0 @@
-pull_request_rules:
-  - name: Auto Merge ImgBot PRs
-    conditions:
-      - title~=[ImgBot] 
-    actions:
-      merge:
-        method: merge
