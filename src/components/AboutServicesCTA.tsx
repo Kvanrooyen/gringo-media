@@ -19,7 +19,10 @@ export default function AboutServicesCTA() {
       <div className="relative z-10 max-w-6xl mx-auto px-4">
         {/* About Section */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-accent mb-6">
+          <h2
+            className="text-4xl md:text-5xl font-bold text-accent mb-6"
+            id="about-us"
+          >
             About Gringo Media
           </h2>
           <p
@@ -46,7 +49,7 @@ export default function AboutServicesCTA() {
             <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4">
               <i className="fas fa-video text-white text-xl"></i>
             </div>
-            <h3 className="text-2xl font-bold text-accent mb-4">
+            <h3 className="text-2xl font-bold text-accent mb-4" id="services">
               Branded Storytelling
             </h3>
             <p
